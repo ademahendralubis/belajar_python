@@ -1,10 +1,10 @@
-import themodule
+#import themodule
 
 # call the function from the module
-themodule.something()
+#themodule.something()
 
 # call the function and pass the argument
-#themodule.print_nama("budi")
+# themodule.print_nama("budi")
 
 #create the module alias
 #import themodule as modul
@@ -13,7 +13,7 @@ themodule.something()
 #modul.something()
 
 #import only specific variable/function from the module
-#from themodule import kota, something
+from themodule import kota, something
 
-# something()
-# print(kota)
+something()
+print(kota)
